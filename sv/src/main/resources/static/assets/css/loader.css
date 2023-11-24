@@ -1,0 +1,62 @@
+.loader{
+    margin: 60px auto;
+    font-size: 10px;
+    position: relative;
+    text-indent: -9999em;
+    border-left: 0.7em solid #fff;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1s infinite linear;
+    animation: load8 1s infinite linear;
+    border-top: 0.7em solid #2196F3;
+    border-right: 0.7em solid #2196F3;
+    border-bottom: 0.7em solid #2196F3;
+}
+
+.loader-bosch{
+    border-top: 0.7em solid #005691;
+    border-right: 0.7em solid #005691;
+    border-bottom: 0.7em solid #005691;
+}
+
+.loader-siemens{
+    border-top: 0.7em solid #41aaaa;
+    border-right: 0.7em solid #41aaaa;
+    border-bottom: 0.7em solid #41aaaa;
+}
+
+.loader-gaggenau{
+    border-top: 0.7em solid #e9994a;
+    border-right: 0.7em solid #e9994a;
+    border-bottom: 0.7em solid #e9994a;
+}
+
+.loader,
+.loader:after{
+    border-radius: 50%;
+    width: 8em;
+    height: 8em
+}
+
+@-webkit-keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes load8 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
